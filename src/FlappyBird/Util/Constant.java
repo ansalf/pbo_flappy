@@ -30,7 +30,7 @@ public class Constant {
     public static final int frameX = 250;
     public static final int frameY = 200;
     // Game title
-    public static final String frameTitle = "Flappy Bird made by We Showed up!";
+    public static final String frameTitle = "Flappy Bird";
     // Game refresh rate
     public static final int FPS = 60;
     // icon

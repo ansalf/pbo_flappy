@@ -133,27 +133,27 @@ public class GameOver extends JFrame implements ActionListener {
         }
 
 
-        try {
-            String str = "PRESS enter TO play AGAIN";
-            g.setColor(Color.WHITE);
-            InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream("resources/UchronyCube-Bold-FFP.ttf");
-            Font font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(30f);
-            g.setFont(font);
-            g.drawString(str, frameWidth / 4 - font.getSize() * 2, frameHeight - font.getSize() * 2);
-        } catch (Exception e) {
-        }
+        //try {
+            //String str = "";
+           //g.setColor(Color.WHITE);
+            //InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream("resources/UchronyCube-Bold-FFP.ttf");
+            //Font font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(30f);
+            //g.setFont(font);
+            //g.drawString(str, frameWidth / 4 - font.getSize() * 2, frameHeight - font.getSize() * 2);
+        //} catch (Exception e) {
+       // }
 
-        try {
-            String str = "We showed up!";
-            g.setColor(Color.black);
-            InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream("resources/Wall Notes.otf");
-            Font font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(30f);
-            g.setFont(font);
-            g.drawString(str, x, 55);
-            x -= SPEED;
-            if (x < -SPEED * 2) x = frameWidth + SPEED;
-        } catch (Exception e) {
-        }
+        //try {
+         //   String str = "";
+           // g.setColor(Color.black);
+           // InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream("resources/Wall Notes.otf");
+           // Font font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(30f);
+           // g.setFont(font);
+           // g.drawString(str, x, 55);
+           // x -= SPEED;
+           // if (x < -SPEED * 2) x = frameWidth + SPEED;
+        //} catch (Exception e) {
+        //}
         i = !i;
     }
 
