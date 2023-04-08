@@ -32,7 +32,7 @@ public class Constant {
         // Game title
         public static final String frameTitle = "Flappy Bird";
         // Game refresh rate
-        public static final int FPS = 60;
+        public static final int FPS = 120;
         // icon
         public static final ImageIcon img = new ImageIcon("src/resources/icon.png");
         // background
