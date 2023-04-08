@@ -101,5 +101,4 @@ public class Constant {
         public static final Sound BUTTON = new Sound("src/resources/sound/button.mp3", false);
         public static final Sound FLYUP = new Sound("src/resources/sound/coin.mp3", false);
         public static final Sound PLAY = new Sound("src/resources/sound/sms.mp3", false);
-        public static final Sound DIE = new Sound("src/resources/sound/dies.mp3", false);
-}
+        public static final Sound DIE = new Sound("src/resources/sound/dies.mp3",false);
