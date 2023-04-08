@@ -30,9 +30,10 @@ public class BackGround {
         move();
     }
     private void move(){
-        layerX += this.speed;
+        layerX += this.speed / 60.0; 
         if(layerX > backGroundImg.getWidth())
-            layerX = 0;
+            layerX -= backGroundImg.getWidth();
     }
+    
 
 }
